@@ -9,8 +9,6 @@
  
   },
   "devDependencies": {
-    "@plugga-tech/todo-calendar-js": "^1.0.5",
-    "cypress": "^10.8.0",
     "live-server": "^1.2.2",
     "start-server-and-test": "^1.14.0"
   }
