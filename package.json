@@ -9,7 +9,5 @@
  
   },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "start-server-and-test": "^1.14.0"
   }
 }
