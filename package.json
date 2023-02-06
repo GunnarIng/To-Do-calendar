@@ -4,9 +4,8 @@
   "version": "1.0.0",
   "author": "Plugga Tech",
   "scripts": {
-  
-    "build-once": "tsc"
- 
+  "build": "tsc --watch",
+    "build-once": "tsc",
   },
   "devDependencies": {
     "typescript": "^3.9.0"
