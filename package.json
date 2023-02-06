@@ -4,16 +4,9 @@
   "version": "1.0.0",
   "author": "Plugga Tech",
   "scripts": {
-    "postinstall": "node postinstall.js",
-    "dev": "cd public && live-server --port=8080",
-    "build": "tsc",
-    "cy:open": "cypress open --e2e --browser chrome -C cypress/cypress.config.js",
-    "cy:run": "cypress run -C cypress/cypress.config.js --browser chrome",
-    "cy:g": "npm run cy:run -- --spec '**/*.g.*'",
-    "cy:vg": "npm run cy:run -- --spec '**/*.vg.*'",
-    "test": "start-server-and-test dev http://localhost:8080 cy:run",
-    "test:g": "start-server-and-test dev http://localhost:8080 cy:g",
-    "test:vg": "start-server-and-test dev http://localhost:8080 cy:vg"
+  
+    "build": "tsc"
+ 
   },
   "devDependencies": {
     "@plugga-tech/todo-calendar-js": "^1.0.5",
