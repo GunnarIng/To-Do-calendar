@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "node postinstall.js",
     "dev": "cd public && live-server --port=8080",
+    "build": "tsc",
     "cy:open": "cypress open --e2e --browser chrome -C cypress/cypress.config.js",
     "cy:run": "cypress run -C cypress/cypress.config.js --browser chrome",
     "cy:g": "npm run cy:run -- --spec '**/*.g.*'",
